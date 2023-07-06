@@ -3,7 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: rgb(161, 161, 161);
+}
+h3{
+color: rgb(0, 162, 255);
+    text-decoration: underline rgb(0, 162, 255);
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(117, 117, 117);
+margin-top: 1.5rem;
+}
 h2 {
     color: rgb(10, 27, 112);
     text-decoration: underline black;
@@ -18,9 +28,15 @@ footer{
     max-width: 100%;
 margin-top: 5px;
 margin-left: 5px;
+border: double gray 2px;
+
 }
 
 /* HEADER*/
+
+header nav ul li{
+    text-decoration:underline rgb(0, 0, 0);
+}
 
 header {
     background-color: aqua;
@@ -40,8 +56,13 @@ h1 {
 ul li {
     text-align: center;
     list-style: none;
-    text-decoration: underline red;
-    gap: 0.5rem;
+    text-decoration: underline rgb(255, 255, 255);
+    margin-bottom: 0.5rem;
+
+}
+
+nav{
+    margin: 0.5rem 0 0.5rem 0;
 }
 
 header form {
@@ -62,7 +83,7 @@ header form {
     align-items: center;
     padding: 1rem;
     gap: 1.5rem;
-
+    
 }
 
 
@@ -72,7 +93,8 @@ header form {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background-color: white;
+gap: 1.5rem;
 }
 
 .tarjeta-producto {
@@ -82,28 +104,30 @@ header form {
     padding: 1rem;
     border: dashed rgb(119, 3, 3) 2px;
     gap: 1.5rem;
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto;
 gap: 1.5rem;
+text-align: center;
+background-color: white;
 }
 
-.contenedor-prod-dest{
+.contenedor-prod{
     margin-top: 1.5rem;
     border: solid black 3px ;
 max-width:300px;
 align-items: center;
 display: flex;
+flex-direction: column;
 }
 
-.contenedor-destacados{
+.contenedor{
     display:  flex;
     align-items: center;
     flex-direction: column;
+
 }
 
-.tarjeta-producto{
-    text-align: center;
-}
+
 
 .btn{
     display: inline-block;
@@ -114,7 +138,7 @@ display: flex;
     border-radius: 20px;
     border: solid darkblue 3px;
     cursor: pointer;
-
+margin-bottom: 0.5rem;
 }
 .btn:hover{
 background-color: darkblue;

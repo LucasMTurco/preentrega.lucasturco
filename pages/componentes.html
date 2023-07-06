@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
     <title>componentes</title>
 </head>
 
@@ -15,7 +16,7 @@
             <img src="../img/logo.jpg" alt="logotipo de la pagina">
             <h2>La casa del gamer</h2>
             <input placeholder="buscar" type="search">
-            🔎
+            
         </div>
 
         <nav>
@@ -42,27 +43,40 @@
     </div>
     <hr>
 
-    <section>
-        <article>
-            <img src="../img/celeron.jpg" alt="">
-            <a href="">procesador intel celeron</a>
-        </article>
-
-        <article>
-            <img src="../img/pentium.jpg" alt="">
-            <a href="">procesador indel pentium</a>
-        </article>
-
-        <article>
-            <img src="../img/pentiumg.jpg" alt="">
-            <a href="">procesador intel pentium gold</a>
-        </article>
-
-        <article>
-            <img src="../img/ryzen.jpg" alt="">
-            <a href="">procesador AMD ryzen</a>
-        </article>
-
+    <section class="contenedor">
+        
+        <div class="contenedor-prod">
+            <article class="tarjeta-producto">
+                <h4>procesador intel celeron</h4>
+                <img src="../img/celeron.jpg" alt="">
+                <a href="" class="btn">agregar al carrito</a>
+            </article>
+        </div>
+        
+        <div class="contenedor-prod">
+            <article class="tarjeta-producto">
+                <h4>Procesador indel pentium</h4>
+                <img src="../img/pentium.jpg" alt="">
+                <a href="" class="btn">agregar al carrito</a>
+            </article>
+        </div>
+        
+        <div class="contenedor-prod">
+            <article class="tarjeta-producto">
+                <h4>procesador indel pentium gold</h4>
+                <img src="../img/pentiumg.jpg" alt="">
+                <a href="" class="btn">agregar al carrito</a>
+            </article>
+        </div>
+        
+        <div class="contenedor-prod">
+            <article class="tarjeta-producto">
+                <h4>procesador AMD ryzen</h4>
+                <img src="../img/ryzen.jpg" alt="">
+                <a href="" class="btn">agregar al carrito</a>
+            </article>
+        </div>
+        
     </section>
 
     <hr>
@@ -73,39 +87,47 @@
             beneficios de conectividad y expansión</p>
     </div>
 <hr>
-    <section>
+    <section class="contenedor">
 
-        <article>
-            <img src="../img/asus.jpg" alt="">
-            <a href="">placa mother ASUS PRIME</a>
-        </article>
+        <div class="contenedor-prod">
+            <article class="tarjeta-producto">
+                <h4>placa mother ASUS PRIME</h4>
+                <img src="../img/asuspro.jpg" alt="">
+                <a href="" class="btn">agregar al carrito</a>
+            </article>
+        </div>
 
-        <article>
-            <img src="../img/asuspro.jpg" alt="">
-            <a href="">placa mother ASUS PRO</a>
-        </article>
+        <div class="contenedor-prod">
+            <article class="tarjeta-producto">
+                <h4>placa mother MSI</h4>
+                <img src="../img/MSI.jpg" alt="">
+                <a href="" class="btn">agregar al carrito</a>
+            </article>
+        </div>
 
+        <div class="contenedor-prod">
+            <article class="tarjeta-producto">
+                <h4>placa mother ASROCK</h4>
+                <img src="../img/ASROCK.jpg" alt="">
+                <a href="" class="btn">agregar al carrito</a>
+            </article>
+        </div>
 
-        <article>
-            <img src="../img/ASROCK.jpg" alt="">
-            <a href="">placa mother ASROCK</a>
-        </article>
-
-
-        <article>
-            <img src="../img/MSI.jpg" alt="">
-            <a href="">placa mother MSI</a>
-        </article>
-
-    </section>
+        <div class="contenedor-prod">
+            <article class="tarjeta-producto">
+                <h4>placa mother ASUS PRO</h4>
+                <img src="../img/asuspro.jpg" alt="">
+                <a href="" class="btn">agregar al carrito</a>
+            </article>
+        </div>
 
 <hr>
 
 <footer>
 
-    <div>
-        <h4>seguinos en:</h4>
-        <ul>
+    <div ->
+        <ul class="cont-foot bg-foot">
+            <h4>seguinos en:</h4>
             <li> <a href="https://www.instagram.com/" target="_blank">instagram</a></li>
             <li> <a href="https://www.facebook.com/" target="_blank">facebook</a></li>
             <li> <a href="https://www.tiktok.com/es" target="_blank">tik tok</a></li>
@@ -114,26 +136,27 @@
         </ul>
     </div>
 
-    <div>
+    <div class="cont-foot bg-foot">
         <h4>condiciones de privacidad</h4>
-        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates totam voluptas harum beatae odio
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates totam voluptas harum beatae
+            odio
             voluptatibus magnam officiis rerum debitis nesciunt?</p>
     </div>
 
-    <div>
+    <div class="cont-foot bg-foot">
         <h4>terminos de uso</h4>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, nihil? Beatae eveniet eaque minima
             ipsa aperiam nobis saepe unde officia!</p>
     </div>
 
-    <div>
-        <h4>apoyanos</h4>
-        <button>donar</button>
+    <div class="cont-foot bg-foot">
+        <h4>Ayudanos a mejorar</h4>
+        <a href="" class="btn">Donar aqui</a>
     </div>
 
-
-
 </footer>
+
+
 
 
 </body>
