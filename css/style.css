@@ -180,7 +180,7 @@ iframe {
 @media (min-width: 768px) {
   .btn-nav {
     display: inline-block;
-    padding: 0;
+    padding: 0 1.5rem;
     text-decoration: none;
     background-color: black;
     color: rgb(255, 255, 255);
@@ -228,6 +228,7 @@ header form {
 
 header nav ul li {
   text-decoration: underline black;
+  padding: 0 1.5rem;
 }
 
 ul li {
