@@ -144,10 +144,6 @@ iframe {
   margin-top: 1.5rem;
 }
 
-header {
-  text-align: center;
-}
-
 .ver-mas {
   display: inline-block;
   padding: 0;
@@ -156,14 +152,13 @@ header {
   color: black;
   border-radius: 20px;
   border: solid black 3px;
-  cursor: pointer;
   margin-bottom: 0.5rem;
   padding: 5px;
   margin-top: 15px;
 }
-.ver-mas-mas:hover {
-  background-color: rgb(255, 255, 255);
-  color: black;
+.ver-mas:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
 }
 
 .btn {
@@ -191,13 +186,8 @@ header {
     color: rgb(255, 255, 255);
     border-radius: 20px;
     border: solid rgb(255, 255, 255) 3px;
-    cursor: pointer;
     margin-bottom: 0.5rem;
     justify-content: center;
-  }
-  .btn-nav-nav:hover {
-    background-color: black;
-    color: rgb(255, 255, 255);
   }
 }
 footer {
