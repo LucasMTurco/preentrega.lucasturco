@@ -4,7 +4,9 @@
     align-items: center;
     padding: 1rem;
     gap: 1.5rem;
-
+    
+ 
+    
 }
 
 .div-ofertas {
@@ -15,6 +17,10 @@
     align-items: center;
     background-color: $white;
     gap: 1.5rem;
+    
+    
+    &:hover{
+        transform: scale(1.3); }
 }
 
 
