@@ -1,18 +1,21 @@
-.contenedor-prod {
-    margin-top: 1.5rem;
-    border: solid black 3px;
-    max-width: 300px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
 
 .contenedor {
     display: flex;
     align-items: center;
     flex-direction: column;
 
+
+    &-prod {
+        margin-top: 1.5rem;
+        border: solid $black 3px;
+        max-width: 300px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    
+    }
 }
+
 
 @media (min-width: 768px) {
 

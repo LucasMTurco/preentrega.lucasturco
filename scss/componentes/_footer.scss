@@ -1,9 +1,9 @@
 footer {
-    color: white;
+    color: $white;
 }
 .cont-foot {
 
-    border: solid black 2px;
+    border: solid $black 2px;
     margin-top: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -12,16 +12,16 @@ footer {
 }
 
 .bg-foot {
-    background-color: black;
+    background-color: $black;
     color: inherit;
 
 }
 
 footer div ul li a {
-    color: white;
+    color: $white;
 }
 @media (min-width:1200px) {
     footer {
-        background-color: black;
+        background-color: $black;
            }
 }

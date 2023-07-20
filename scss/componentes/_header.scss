@@ -1,9 +1,10 @@
 header {
     background-color: aqua;
+
+    & form {
+        display: flex;
+        justify-content: end;
+        gap: 0.3rem;
+    }
 }
 
-header form {
-    display: flex;
-    justify-content: end;
-    gap: 0.3rem;
-}

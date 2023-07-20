@@ -1,12 +1,12 @@
 header nav ul li {
-    text-decoration: underline rgb(0, 0, 0);
+    text-decoration: underline $black;
 }
 
 
 ul li {
     text-align: center;
     list-style: none;
-    text-decoration: underline rgb(255, 255, 255);
+    text-decoration: underline $white;
     margin-bottom: 0.5rem;
 
 }
@@ -21,7 +21,7 @@ nav {
         justify-content: center;
         gap: 3rem;
         list-style: none;
-        text-decoration: underline rgb(255, 255, 255);
+        text-decoration: underline $white;
     }
 
 }
