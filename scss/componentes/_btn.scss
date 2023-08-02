@@ -17,22 +17,18 @@
 }
 }
 
-
 .btn {
-    display: inline-block;
+    display: flex;
     padding: 0;
     text-decoration: none;
     background-color: aqua;
     color: $white;
-    border-radius: 20px;
-    border: solid darkblue 3px;
-    margin-bottom: 0.5rem;
+        justify-content: center;    
     padding: 5px;
+width: 100%;
+background: linear-gradient(to right, #f7bd44, #e50c13);
+margin-top: 2.5rem;
 
-&:hover {
-    background-color: darkblue;
-    color: aqua;
-}
 }
 
 @media(min-width: 768px){

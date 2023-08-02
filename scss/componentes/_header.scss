@@ -1,5 +1,5 @@
 header {
-    background-color: aqua;
+    background-color: $black;
 
     & form {
         display: flex;
@@ -8,4 +8,12 @@ header {
     }
 
 }
+ 
+.img-logo{
+    width: 400px;
+    height: 300px;
+object-fit: cover;
+border: solid black 5px;
+}
+
  

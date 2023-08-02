@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    border: dashed rgb(119, 3, 3) 2px;
+    border: solid #e50c13 2px;
     gap: 1.5rem;
     max-width: 100%;
     margin: 0 auto;
@@ -12,6 +12,8 @@
     background-color: $white;
 width: 350px;
 height: 300px;
+justify-content: center;
+
 &:hover{
     transform: scale(1.3);
 }
@@ -37,3 +39,4 @@ height: 300px;
 }
     
     }
+    

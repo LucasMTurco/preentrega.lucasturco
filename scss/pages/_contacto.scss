@@ -1,4 +1,10 @@
 .space{
     margin-top: 1.5rem;
+display: flex;
+flex-direction: column;
+align-items:center
 }
- 
+
+form div{
+    margin-top: 2rem;
+}

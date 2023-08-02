@@ -9,6 +9,7 @@ footer {
     flex-direction: column;
     align-items: center;
     padding: 0;
+color: $white;
 }
 
 .bg-foot {
@@ -17,11 +18,24 @@ footer {
 
 }
 
-footer div ul li a {
+footer div a {
     color: $white;
 }
 @media (min-width:1200px) {
     footer {
         background-color: $black;
            }
+}
+.text-foot{
+    color: $white;
+}
+
+.cond{
+    margin-top: 1.5rem;
+font-size: 1.2rem;
+color: #6495ED;
+text-decoration: underline;
+}
+.ul-foot{
+text-decoration: none;
 }
