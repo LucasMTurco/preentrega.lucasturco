@@ -19,7 +19,7 @@
 
 .btn {
     display: flex;
-    padding: 0;
+    
     text-decoration: none;
     background-color: aqua;
     color: $white;
@@ -27,14 +27,14 @@
     padding: 5px;
 width: 100%;
 background: linear-gradient(to right, #f7bd44, #e50c13);
-margin-top: 2.5rem;
+
 
 }
 
 @media(min-width: 768px){
     .btn-nav {
         display: inline-block;
-        padding: 0 1.5rem;
+       
         text-decoration: none;
         background-color: $black;
         color: $white;

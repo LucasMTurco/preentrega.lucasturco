@@ -10,9 +10,9 @@ $black:black;
     box-sizing: border-box;
 }
 
-* img {
-    max-height: 50%;
-    max-width: 100%;
+img {
+    max-height: 350px;
+    max-width: 50%;
     margin-top: 5px;
     margin-left: 5px;
     border: double gray 2px;
@@ -56,7 +56,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 
 h4{
     color: #FF7F50;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 
